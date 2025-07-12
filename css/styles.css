@@ -1,0 +1,23 @@
+:root {
+	--font-primary-family: 'Roboto', sans-serif;
+	--font-secondary-family: 'Raleway', sans-serif;
+	--font-primary-cl: #2e2f42;
+	--font-secondary-cl: #434455;
+	--font-accent-cl: #4d5ae5;
+	--bg-main-cl: #fff;
+}
+
+body {
+	font-family: var(--font-primary-family);
+	background-color: var(--bg-main-cl);
+}
+
+ol,
+ul {
+	list-style-type: none;
+}
+
+a {
+	color: currentColor;
+	text-decoration: none;
+}
