@@ -29,7 +29,6 @@ ul {
 a {
 	color: currentColor;
 	text-decoration: none;
-	cursor: pointer;
 }
 
 .button {
@@ -39,6 +38,7 @@ a {
 	letter-spacing: 0.04em;
 	background-color: var(--button-bg-cl);
 	color: var(--button-text-cl);
+	cursor: pointer;
 }
 
 /* Header  */
@@ -73,7 +73,6 @@ a {
 .header-address-item {
 }
 .header-address-link {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
@@ -117,7 +116,6 @@ a {
 	letter-spacing: 0.02em;
 }
 .features-text {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
@@ -148,7 +146,6 @@ a {
 	letter-spacing: 0.02em;
 }
 .team-work {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
@@ -178,7 +175,6 @@ a {
 	letter-spacing: 0.02em;
 }
 .portfolio-text {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
@@ -189,7 +185,6 @@ a {
 	background-color: var(--footer-bg-cl);
 }
 .footer-text {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
