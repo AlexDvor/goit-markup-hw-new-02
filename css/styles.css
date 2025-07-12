@@ -1,4 +1,7 @@
 :root {
+	--gris: #f4f4fd;
+	--white: #ffffff;
+
 	--font-primary-family: 'Roboto', sans-serif;
 	--font-secondary-family: 'Raleway', sans-serif;
 	--font-primary-cl: #434455;
@@ -10,15 +13,14 @@
 	--hero-bg-cl: #2e2f42;
 
 	--button-bg-cl: #4d5ae5;
-	--button-focus-cl: #404bbf;
+	--focus-cl: #404bbf;
 	--button-text-cl: #fff;
 
 	--footer-bg-cl: #2e2f42;
 	--footer-text-cl: #f4f4fd;
 
 	--logo-accent-cl: #4d5ae5;
-	--gris: #f4f4fd;
-	--white: #ffffff;
+
 	--team-bg-color: var(--gris);
 }
 body {
@@ -76,6 +78,14 @@ a {
 	letter-spacing: 0.02em;
 	color: var(--font-secondary-cl);
 }
+.header-nav-link:hover,
+.header-nav-link:focus {
+	color: var(--focus-cl);
+}
+
+.header-address {
+	font-style: normal;
+}
 .header-address-list {
 }
 .header-address-item {
@@ -84,7 +94,11 @@ a {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	font-style: normal;
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+	color: var(--focus-cl);
 }
 
 /* Hero */
@@ -104,7 +118,7 @@ a {
 
 .hero-btn:hover,
 .hero-btn:focus {
-	background-color: var(--button-focus-cl);
+	background-color: var(--focus-cl);
 }
 
 /* Features */
