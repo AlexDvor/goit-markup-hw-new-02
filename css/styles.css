@@ -10,10 +10,16 @@
 	--hero-bg-cl: #2e2f42;
 
 	--button-bg-cl: #4d5ae5;
+	--button-focus-cl: #404bbf;
 	--button-text-cl: #fff;
 
 	--footer-bg-cl: #2e2f42;
 	--footer-text-cl: #f4f4fd;
+
+	--logo-accent-cl: #4d5ae5;
+	--gris: #f4f4fd;
+	--white: #ffffff;
+	--team-bg-color: var(--gris);
 }
 body {
 	font-family: var(--font-primary-family);
@@ -54,10 +60,10 @@ a {
 	line-height: 1.17;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	color: var(--font-secondary-cl);
+	color: var(--logo-accent-cl);
 }
-.logo-accent-color {
-	color: var(--font-accent-cl);
+.header-logo-decoration {
+	color: var(--font-secondary-cl);
 }
 .header-nav-list {
 }
@@ -90,10 +96,15 @@ a {
 .hero-title {
 	font-weight: 700;
 	font-size: 56px;
-	line-height: 1.08;
+	line-height: 1.07;
 	letter-spacing: 0.02em;
 	text-align: center;
 	color: var(--font-hero-cl);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+	background-color: var(--button-focus-cl);
 }
 
 /* Features */
@@ -127,18 +138,21 @@ a {
 /* Team  */
 
 .team-section {
+	background-color: var(--team-bg-color);
 }
 .team-title {
 	font-weight: 700;
 	font-size: 36px;
-	line-height: 1.11111;
+	line-height: 1.11;
 	letter-spacing: 0.02em;
 	text-align: center;
+	text-transform: capitalize;
 	color: var(--font-secondary-cl);
 }
 .team-list {
 }
 .team-item {
+	background-color: var(--white);
 }
 .team-img {
 }
@@ -161,9 +175,10 @@ a {
 .portfolio-title {
 	font-weight: 700;
 	font-size: 36px;
-	line-height: 1.11111;
+	line-height: 1.11;
 	letter-spacing: 0.02em;
 	text-align: center;
+	text-transform: capitalize;
 	color: var(--font-secondary-cl);
 }
 .portfolio-list {
@@ -194,6 +209,6 @@ a {
 	letter-spacing: 0.02em;
 	color: var(--footer-text-cl);
 }
-.logo-footer {
+.footer-logo-decoration {
 	color: var(--footer-text-cl);
 }
